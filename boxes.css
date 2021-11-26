@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	box-sizing: content-box;
+}
+
+ul {
+	list-style-type: none;
+	line-height: 100px;
+	margin: 11% 0 0 25%;
+}
+
+.horizontal-label {
+	margin: 5% 0 0 38%;
+	letter-spacing: 45px;
+}
+
+#outerBox {
+	width: 850px;
+	height: 850px;
+	background: rgb(250, 230, 180);
+	box-shadow: 8px 8px 9px #292929;
+	border: 20px outset #8a5300;
+	border-radius: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.black-tile {
+	width: 100px;
+	height: 100px;
+	background: rgb(62, 38, 0);
+	position: absolute;
+}
+
+.white-tile {
+	width: 100px;
+	height: 100px;
+	background: rgb(243, 208, 162);
+	position: absolute;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+	opacity: 100%;
+	box-sizing: border-box;
+}
+
+.on-top {
+	width: 100px;
+	height: 100px;
+	background-color: rgba(200, 211, 104, 0.74);
+	box-shadow: 0px 0px 30px 0px #f8f6f6;
+	opacity: 90%;
+	z-index: 1;
+}
+
+.confirm-drop {
+	width: 100px;
+	height: 100px;
+	box-shadow: 0px 0px 50px 30px #f8f6f6;
+	opacity: 90%;
+	z-index: 1;
+}
+
+.strikeable {
+	width: 100px;
+	height: 100px;
+	background-color: rgba(252, 115, 115, 0.986);
+	box-shadow: 0px 0px 50px 30px #f8f6f6;
+	opacity: 90%;
+	z-index: 1;
+}
+
+.position-letters {
+	position: absolute;
+	font-size: 1.5rem;
+	left: 5px;
+	transform: translateY(140%);
+}
+
+.position-numbers {
+	position: absolute;
+	font-size: 1.5rem;
+	top: 825px;
+	transform: translateX(375%);
+}
+
+.position-0 {
+	left: 25px;
+}
+
+.position-1 {
+	left: 125px;
+}
+
+.position-2 {
+	left: 225px;
+}
+
+.position-3 {
+	left: 325px;
+}
+
+.position-4 {
+	left: 425px;
+}
+
+.position-5 {
+	left: 525px;
+}
+
+.position-6 {
+	left: 625px;
+}
+
+.position-7 {
+	left: 725px;
+}
+
+.position-a {
+	top: 725px;
+}
+
+.position-b {
+	top: 625px;
+}
+
+.position-c {
+	top: 525px;
+}
+
+.position-d {
+	top: 425px;
+}
+
+.position-e {
+	top: 325px;
+}
+
+.position-f {
+	top: 225px;
+}
+
+.position-g {
+	top: 125px;
+}
+
+.position-h {
+	top: 25px;
+}
